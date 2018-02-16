@@ -76,7 +76,7 @@ class EmployeeController extends AppBaseController
             'ktptitle' => $uploadedFile->getClientOriginalName()
         ]);
 
-        Flash::success('Employee saved successfully.');
+        // Flash::success('Employee saved successfully.');
 
         return redirect(route('employees.index'));
     }
