@@ -21,3 +21,12 @@
     </div>
 @endsection
 
+@section('scripts')
+    <script type="text/javascript">
+        $('#employees-table').DataTable({
+            //  processing: true,
+            // serverSide: true,
+        });
+    </script>
+@endsection
+
